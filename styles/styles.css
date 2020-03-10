@@ -1,0 +1,25 @@
+caption{
+    background-color: indianred;
+}
+table{
+    background-color:lightgoldenrodyellow;
+}
+td{
+  border-bottom:1px solid black;
+  padding:1em;
+}
+#lista ul{list-style: none}
+#lista li{background-color:indianred;
+         display:inline;}
+#lista a{
+    text-decoration: none;
+    padding: 9em;
+    text-decoration:none;
+    color:antiquewhite;
+}
+#rrss{
+    list-style: none;
+}
+#competencias{
+    list-style: none;
+}

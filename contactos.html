@@ -3,24 +3,95 @@
 <head>
     <meta charset="utf-8">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
     
 </head>
-<body>
-    <header>
+<body id='arriba'>
+<header>
+    <figure>
+        <a href="index.html">
+            <img width='215' height="215"src="images/graphic%20design.png">
+        </a>
+    </figure>
+    
     <h1>ALEJANDRO ABAD DE LA FUENTE</h1>
+    <h2>Diseñando mi vida</h2>
     <hr>
+    <nav id="lista">
     <ul>
-        <li><a href="index.html">Inicio</a></li>
+        <li id="index"><a href="index.html">Inicio</a></li>
         <li><a href="curriculum.html">Curriculum</a></li>
         <li><a href="competencias.html">Competencias digitales</a></li>
         <li><a href="contactos.html">Contacto</a></li>
     </ul>
-    </header>
+    </nav>
+</header>
 <main>   
-
+    <form method='get' action='procesar.php'>
+  <fieldset><legend>Formulario de quejas y sugerencias</legend>
+  <div>
+    <label for='nombre'>Escribe tu nombre</label>
+    <input type='text' id='nombre' name='nombre'>
+  </div>
+    <div>
+    <label for='quejas'>Quejas y sugerencias</label>
+     <textarea id='quejas' name='quejas' placeholder='detalle su queja'></textarea>
+  </div>
+    <div>
+      <p>Dinos tus estudios</p>
+   </div>
+  
+     <div>
+        <input type='radio' name='estudios'     value='estudios'>
+        <label for='primaria'>Primaria</label>
+     </div>
+  
+       <div>
+        <input type='radio' name='estudios'     value='estudios'>
+        <label for='secundaria'>Secundaria</label>
+     </div>
+  
+    <div>
+        <input type='radio' name='estudios'     value='estudios'>
+        <label for='bachillerato'>Bachillerato</label>
+     </div>
+  
+    <div>
+        <input type='radio' name='estudios'     value='estudios'>
+       <label for='estudios-superiores'>Estudios Superiores</label>
+     </div>
+  
+<div>
+        <input id='carnet' type='checkbox' name='carnet' value='si'>
+       <label for='estudios-superiores'>Poseo carnet b1</label>
+     </div>
+  
+ <div>
+   <label for='provincia'>¿De qué provincia de Castilla la Mancha eres?</label>
+   <select id='provincia' name='provincia'>
+     <option value='albacete'>Albacete</option>
+     <option value='ciudad_real'>Ciudad Real</option>
+     <option value='cuenca'>Cuenca</option>
+     <option value='guadalajara'>Guadalajara</option>
+     <option value='toledo'>Toledo</option>
+   </select>
+</div>
+  <div>
+    <button type='submit'>Enviar</button>
+  </div>
+</fieldset>
+        
+<iframe src="https://www.google.com/maps/embed?pb=!4v1583834447124!6m8!1m7!1sw7OLEH0hgt18JPbVLZCuLA!2m2!1d40.68180776418082!2d-3.047203526923118!3f151.9322283524724!4f-40.957526205791815!5f1.5216500281572274" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+  
+</form>
 </main> 
-<footer>
+ <footer>
+     <p><a href='#arriba'>volver arriba</a> </p>
      &copy; Copyright 2020 
+    <nav id="rrss">
+        <li><a href="https://codepen.io/alexabad8"><img width='200' height="40"src='images/codepen.png'></a></li>
+        <li><a href="https://github.com/alexxabad8"><img width='200' height="200"src='images/github.png'></a></li>
+     </nav>
 </footer>
     
     
